@@ -5,8 +5,8 @@
 int attesa(int *arrivo, int *servizio, int numPe);
 int main()
 {
-	int arrivo[] = {0, 2, 4};
-	int servizio[] = { 5, 3, 1 };
+	int arrivo[] = {3, 3, 9};
+	int servizio[] = { 2, 15, 14 };
 	int w =attesa(arrivo,servizio,3);
 	printf("%d", w);
 
