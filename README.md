@@ -1,4 +1,4 @@
-## linguaggio_C_universita
+# linguaggio_C_universita
 ---
 ## Introduzione
 Questo repository è stato creato per scopi universitari e raccoglie esercizi, progetti e codice sviluppato nell’ambito del corso di Fondamenti di Informatica 1.
@@ -8,10 +8,10 @@ L’obiettivo è fornire esempi pratici di algoritmi, strutture dati e simulazio
 
 Nota: Il materiale presente è pensato esclusivamente per uso didattico e non per scopi commerciali.
 ---
-## Indice
+# Indice
 - [Problema_Esempio](#Problema_Esempio)
 ---
-## Problema_Esempio
+# Problema_Esempio
  • La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
 persona al bancone sia a prendere gli ordini sia a servirli. In ogni 
 BigBurger, i clienti arriveranno e si metteranno in fila. Quando arrivano 
