@@ -9,7 +9,7 @@ L’obiettivo è fornire esempi pratici di algoritmi, strutture dati e simulazio
 Nota: Il materiale presente è pensato esclusivamente per uso didattico e non per scopi commerciali.
 ---
 ## Indice
-- [Problema_Esempio](##Problema_Esempio)
+- [Problema_Esempio](#Problema_Esempio)
 ---
 ## Problema_Esempio
  • La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
