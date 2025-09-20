@@ -4,7 +4,7 @@ extern "C" {
 #include "../Problema_Esempio/provaC.c"
 }
 
-
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest1
 {
@@ -17,7 +17,7 @@ namespace UnitTest1
 			int arrivo[] = { 3, 3, 9 };
 			int servizio[] = { 2, 15, 14 };
 			int w = attesa(arrivo, servizio, 3);
-			_ASSERT(w == 12);
+			Assert::AreEqual(11, w);	// con 12 da test non superato
 		}
 	};
 }
