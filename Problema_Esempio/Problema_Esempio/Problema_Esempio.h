@@ -1,15 +1,7 @@
+#pragma once
 
 
-#include <stdio.h>
-int attesa(int *arrivo, int *servizio, int numPe);
-int main()
-{
-	int arrivo[] = {3, 3, 9};
-	int servizio[] = { 2, 15, 14 };
-	int w =attesa(arrivo,servizio,3);
-	printf("%d", w);
-}
-int attesa(int *arrivo, int *servizio, int numPe)
+inline int attesa(int* arrivo, int* servizio, int numPe)
 {
 	int tempocorrente = 0;
 	int maxW = 0;
@@ -22,13 +14,12 @@ int attesa(int *arrivo, int *servizio, int numPe)
 		else
 		{
 			int att = tempocorrente - arrivo[i];
-			if(att>maxW)
+			if (att > maxW)
 				maxW = att;
 			tempocorrente += servizio[i];
 		}
-		
+
 	}
 	return maxW;
 
 }
-
