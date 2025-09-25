@@ -10,6 +10,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 ---
 # Indice
 - [Problema_Esempio](#Problema_Esempio)
+- [Massimo](#Massimo)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -35,3 +36,6 @@ cliente, e sono dati nell’ordine in cui arrivano al negozio (arrivi è in ordi
 non decrescente).
 - Se più clienti arrivano contemporaneamente, essi accederanno alla fila 
 assieme, nell’ordine indicato negli array.
+---
+# Massimo
+- La funzione riceve due numeri interi a 8 bit con segno a e b e restituisce il valore massimo.
