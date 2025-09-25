@@ -38,5 +38,4 @@ non decrescente).
 assieme, nell’ordine indicato negli array.
 ---
 # Massimo
-- Creare un file massimo.c.
 - La funzione riceve due numeri interi a 8 bit con segno a e b e restituisce il valore massimo.
