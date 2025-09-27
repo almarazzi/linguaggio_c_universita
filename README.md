@@ -11,6 +11,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 # Indice
 - [Problema_Esempio](#Problema_Esempio)
 - [Massimo](#Massimo)
+- [Multipli](#Multipli)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -36,6 +37,12 @@ cliente, e sono dati nell’ordine in cui arrivano al negozio (arrivi è in ordi
 non decrescente).
 - Se più clienti arrivano contemporaneamente, essi accederanno alla fila 
 assieme, nell’ordine indicato negli array.
+- prototipo della Funzione: int attesa(int* arrivo, int* servizio, int numPe);
 ---
 # Massimo
 - La funzione riceve due numeri interi a 8 bit con segno a e b e restituisce il valore massimo.
+- prototipo della Funzione:  char massimo(char a, char b);
+---
+# Multipli
+- La funzione riceve due numeri interi a 32 bit con segno a e b e restituisce 1 se a è un multiplo di b, altrimenti 0.
+- prototipo della Funzione:  bool multipli(int a, int b);
