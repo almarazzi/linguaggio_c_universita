@@ -1,5 +1,5 @@
 #pragma once
-
+#include <stdbool.h>
 inline bool multipli(int a, int b)
 {
 	if (a != 0)
