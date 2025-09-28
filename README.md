@@ -48,6 +48,6 @@ assieme, nell’ordine indicato negli array.
 - La funzione riceve due numeri interi a 32 bit con segno a e b e restituisce 1 se a è un multiplo di b, altrimenti 0.
 - prototipo della Funzione:  bool multipli(int a, int b);
 ---
-# Quadrato della distanza
+# Quadrato_della_distanza
 - La funzione riceve le coordinate di due punti P1(x1,y1) e P2(x2,y2) restituise il quadrato della distanza tra due punti, ovvero D^2=(x1-x2)^2-(y1-y2)^2
 - prototipo della Funzione:  double Quadrato_Della_Distanza(double x1, double y1, double x2, double y2)
