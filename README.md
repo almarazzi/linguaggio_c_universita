@@ -12,6 +12,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Problema_Esempio](#Problema_Esempio)
 - [Massimo](#Massimo)
 - [Multipli](#Multipli)
+- [Quadrato della distanza](#Quadrato_della_distanza)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -46,3 +47,7 @@ assieme, nell’ordine indicato negli array.
 # Multipli
 - La funzione riceve due numeri interi a 32 bit con segno a e b e restituisce 1 se a è un multiplo di b, altrimenti 0.
 - prototipo della Funzione:  bool multipli(int a, int b);
+---
+# Quadrato della distanza
+- La funzione riceve le coordinate di due punti P1(x1,y1) e P2(x2,y2) restituise il quadrato della distanza tra due punti, ovvero D^2=(x1-x2)^2-(y1-y2)^2
+- prototipo della Funzione:  double Quadrato_Della_Distanza(double x1, double y1, double x2, double y2)
