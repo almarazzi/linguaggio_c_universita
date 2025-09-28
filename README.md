@@ -13,6 +13,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Massimo](#Massimo)
 - [Multipli](#Multipli)
 - [Quadrato della distanza](#Quadrato_della_distanza)
+- [Ordine_di_grandezza](#Ordine_di_grandezza)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -51,3 +52,7 @@ assieme, nell’ordine indicato negli array.
 # Quadrato_della_distanza
 - La funzione riceve le coordinate di due punti P1(x1,y1) e P2(x2,y2) restituise il quadrato della distanza tra due punti, ovvero D^2=(x1-x2)^2-(y1-y2)^2
 - prototipo della Funzione:  double Quadrato_Della_Distanza(double x1, double y1, double x2, double y2)
+---
+ # Ordine_di_grandezza
+ - La funzione riceve un valore intero non negativo a 32 bit val e ritorna l'esponente della massima potenza del dieci contenuta in val
+- prototipo della Funzione:  char Ordine_di_grandezza(unsigned int Numero)
