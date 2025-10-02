@@ -56,7 +56,7 @@ assieme, nell’ordine indicato negli array.
 ---
  # Ordine_di_grandezza
 - La funzione riceve un valore intero non negativo a 32 bit val e ritorna l'esponente della massima potenza del dieci contenuta in val
-- prototipo della Funzione:  char Ordine_di_grandezza(unsigned int Numero)
+-  prototipo della Funzione:  char Ordine_di_grandezza(unsigned int Numero)
   ---
   # Cifre_Binarie
 - La funzione riceve un valore intero non negativo a 32 bit val e un indice di posizione n e deve ritornare il bit di posizione n in val. Il bit meno significativo è quello di posizione 0, mentre il bit più significativo è quello di posizione 31.
