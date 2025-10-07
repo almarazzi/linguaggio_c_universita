@@ -14,6 +14,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Multipli](#Multipli)
 - [Quadrato della distanza](#Quadrato_della_distanza)
 - [Ordine_di_grandezza](#Ordine_di_grandezza)
+- [Cifre_Binarie](#Cifre_Binarie)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -54,5 +55,9 @@ assieme, nell’ordine indicato negli array.
 - prototipo della Funzione:  double Quadrato_Della_Distanza(double x1, double y1, double x2, double y2)
 ---
  # Ordine_di_grandezza
- - La funzione riceve un valore intero non negativo a 32 bit val e ritorna l'esponente della massima potenza del dieci contenuta in val
-- prototipo della Funzione:  char Ordine_di_grandezza(unsigned int Numero)
+- La funzione riceve un valore intero non negativo a 32 bit val e ritorna l'esponente della massima potenza del dieci contenuta in val
+-  prototipo della Funzione:  char Ordine_di_grandezza(unsigned int Numero)
+  ---
+  # Cifre_Binarie
+- La funzione riceve un valore intero non negativo a 32 bit val e un indice di posizione n e deve ritornare il bit di posizione n in val. Il bit meno significativo è quello di posizione 0, mentre il bit più significativo è quello di posizione 31.
+- prototipo della funzione:  unsigned char Cifre_Binarie(unsigned int numero, unsigned int n)  
