@@ -15,7 +15,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Quadrato della distanza](#Quadrato_della_distanza)
 - [Ordine_di_grandezza](#Ordine_di_grandezza)
 - [Cifre_Binarie](#Cifre_Binarie)
-- [Select_Sort](#Selection_Sort (`select_sort`))
+- [Selection_Sort](#Selection_Sort)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
