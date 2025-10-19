@@ -15,6 +15,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Quadrato della distanza](#Quadrato_della_distanza)
 - [Ordine_di_grandezza](#Ordine_di_grandezza)
 - [Cifre_Binarie](#Cifre_Binarie)
+- [Selection_Sort](#selection_sort-select_sort)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -60,4 +61,46 @@ assieme, nell’ordine indicato negli array.
   ---
   # Cifre_Binarie
 - La funzione riceve un valore intero non negativo a 32 bit val e un indice di posizione n e deve ritornare il bit di posizione n in val. Il bit meno significativo è quello di posizione 0, mentre il bit più significativo è quello di posizione 31.
-- prototipo della funzione:  unsigned char Cifre_Binarie(unsigned int numero, unsigned int n)  
+- prototipo della funzione:  unsigned char Cifre_Binarie(unsigned int numero, unsigned int n)
+---
+  # Selection_Sort (`select_sort`)
+
+![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)  
+*Animazione del Selection Sort (Fonte: Wikipedia)*
+
+---
+
+## Descrizione
+`Select_Sort` è un algoritmo di ordinamento semplice che ordina una lista confrontando ogni elemento con tutti gli altri e posizionando l'elemento minimo nella posizione corretta.  
+
+È ideale per apprendere i concetti base degli algoritmi di ordinamento, anche se non è efficiente per grandi dataset.
+
+---
+
+## Caratteristiche
+- Ordinamento crescente (default) o decrescente (opzionale)
+- Funziona su array
+- Algoritmo **in-place** → non richiede memoria aggiuntiva
+- Complessità:
+  - Tempo: O(n²)
+  - Spazio: O(1)
+
+---
+
+## Funzionamento
+
+### Passaggi principali
+1. Considera il primo elemento come minimo.
+2. Confronta con tutti gli elementi successivi per trovare il minimo reale.
+3. Scambia il minimo con il primo elemento.
+4. Ripeti per il resto della lista fino al termine.
+
+### Esempio visivo
+Lista iniziale: `[64, 25, 12, 22, 11]`
+
+| Passo | Lista corrente       | Azione                            |
+|-------|--------------------|----------------------------------|
+| 1     | `[64, 25, 12, 22, 11]` | Minimo=11 → scambia con 64        |
+| 2     | `[11, 25, 12, 22, 64]` | Minimo=12 → scambia con 25        |
+| 3     | `[11, 12, 25, 22, 64]` | Minimo=22 → scambia con 25        |
+| 4     | `[11, 12, 22, 25, 64]` | Lista ordinata                    |
