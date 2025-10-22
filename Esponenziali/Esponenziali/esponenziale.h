@@ -1,10 +1,8 @@
 #pragma once
-#include "math.h"
 inline double fattoriale(double f)
 {
 	return (f == 1)? 1:f * fattoriale(f - 1);
 }
-
 inline double esponenziale(double x)
 {
 	double p = 1.0;
