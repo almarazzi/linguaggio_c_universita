@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{d9aa33fb-e23e-44ee-8c22-f0cfeef4c46a}</ProjectGuid>
+    <ProjectGuid>{235ca641-9b9f-49db-96df-c1af9deab269}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <ConfigurationType>Application</ConfigurationType>
@@ -108,8 +108,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inverti_Cifre\Inverti_Cifre.vcxproj">
-      <Project>{56e05e6d-981f-4806-a0fb-a14e4f45a512}</Project>
+    <ProjectReference Include="..\binario_BCD\binario_BCD.vcxproj">
+      <Project>{0632b3ae-3890-4ef9-aee3-f357fefb2551}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
