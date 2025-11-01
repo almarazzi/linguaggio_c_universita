@@ -28,6 +28,7 @@ Nota: Il materiale presente è pensato esclusivamente per uso didattico e non pe
 - [Numeri_Felici](#Numeri_Felici)
 - [Numeri_Cresenti](#Numeri_Cresenti)
 - [Binario_BCD](#Binario_BCD)
+- [Somma_Vettori](#Somma_Vettori)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -169,5 +170,10 @@ se x=14 la funzione deve ritornare 17
 - Questa funzione impacchetta le 4 cifre di val dalla più significativa alla meno significativa in 16 bit (senza segno). Nel caso di 127 quindi produrrebbe 0000.0001.0010.0111, o in esadecimale (alla C) 0x0127. Cioè ogni cifra in base 10 viene convertita nella corrispondente cifra in base 16.
 - Il numero 0 diventerebbe 0x0000, il numero 9999 diventerebbe 0x9999 e così via.
 - Se la funzione riceve un numero maggiore di 9999 deve utilizzare solo le 4 cifre decimali meno significative.
+---
+# Somma_Vettori
+- La funzione accetta come parametri due puntatori a vettori di double, arr1 e arr2, e un dato di tipo size_t che ne indica la dimensione, n. I due vettori hanno la stessa dimensione. La funzione deve restituire un puntatore ad un vettore allocato dinamicamente nell'heap, formato da n elementi di tipo double calcolati come la somma dei corrispondenti elementi di arr1 e arr2.
+-arr1 e arr2 non saranno mai NULL e n sarà sempre maggiore di 0.
+-Ad esempio se arr1 = {1, 2, 3} e arr2 = {-1, 7, 14}, la funzione restituirà un puntatore a {0, 9, 17}.
 
 
