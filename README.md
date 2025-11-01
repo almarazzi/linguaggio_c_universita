@@ -6,7 +6,6 @@ Gli esempi sono programmati in C e possono essere eseguiti utilizzando Visual St
 
 L’obiettivo è fornire esempi pratici di algoritmi, strutture dati e simulazioni di problemi reali, utili per comprendere meglio i concetti affrontati a lezione.
 
-Nota: Il materiale presente è pensato esclusivamente per uso didattico e non per scopi commerciali.
 ---
 # Indice
 - [Problema_Esempio](#Problema_Esempio)
@@ -173,7 +172,7 @@ se x=14 la funzione deve ritornare 17
 ---
 # Somma_Vettori
 - La funzione accetta come parametri due puntatori a vettori di double, arr1 e arr2, e un dato di tipo size_t che ne indica la dimensione, n. I due vettori hanno la stessa dimensione. La funzione deve restituire un puntatore ad un vettore allocato dinamicamente nell'heap, formato da n elementi di tipo double calcolati come la somma dei corrispondenti elementi di arr1 e arr2.
--arr1 e arr2 non saranno mai NULL e n sarà sempre maggiore di 0.
--Ad esempio se arr1 = {1, 2, 3} e arr2 = {-1, 7, 14}, la funzione restituirà un puntatore a {0, 9, 17}.
-
+- arr1 e arr2 non saranno mai NULL e n sarà sempre maggiore di 0.
+- esempio se arr1 = {1, 2, 3} e arr2 = {-1, 7, 14}, la funzione restituirà un puntatore a {0, 9, 17}.
+---
 
