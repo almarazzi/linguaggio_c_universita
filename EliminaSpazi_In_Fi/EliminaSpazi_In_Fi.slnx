@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Test_Elimina_spazi/Test_Elimina_spazi.vcxproj" Id="5176d521-4095-480f-9605-ad211bcf87ac" />
+  <Project Path="EliminaSpazi_In_Fi.vcxproj" Id="a8da2b5e-9355-4b6c-ac22-1b4167645018" />
+</Solution>
