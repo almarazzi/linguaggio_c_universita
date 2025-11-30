@@ -182,7 +182,7 @@ se x=14 la funzione deve ritornare 17
 
 ## Descrizione
 
-La funzione `leggi_Citta` legge un file di testo contenente informazioni su un elenco di città e le loro rispettive popolazioni, restituendo un array dinamico di strutture `city` in cui ogni struttura contiene:
+La funzione `leggi_Citta` legge un file di testo contenente informazioni su un elenco di città e le loro rispettive popolazioni, restituendo un array dinamico di strutture `citta` in cui ogni struttura contiene:
 - Il nome della città (stringa C dinamica).
 - La popolazione della città (intero senza segno a 32 bit).
 
