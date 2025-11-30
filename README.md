@@ -28,6 +28,7 @@ L’obiettivo è fornire esempi pratici di algoritmi, strutture dati e simulazio
 - [Numeri_Cresenti](#Numeri_Cresenti)
 - [Binario_BCD](#Binario_BCD)
 - [Somma_Vettori](#Somma_Vettori)
+- [LeggiFileCitta](#LeggiFileCitta)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -175,4 +176,42 @@ se x=14 la funzione deve ritornare 17
 - arr1 e arr2 non saranno mai NULL e n sarà sempre maggiore di 0.
 - esempio se arr1 = {1, 2, 3} e arr2 = {-1, 7, 14}, la funzione restituirà un puntatore a {0, 9, 17}.
 ---
+# LeggiFileCitta
+
+# Funzione `leggi_Citta` per la lettura di città da un file di testo
+
+## Descrizione
+
+La funzione `leggi_Citta` legge un file di testo contenente informazioni su un elenco di città e le loro rispettive popolazioni, restituendo un array dinamico di strutture `city` in cui ogni struttura contiene:
+- Il nome della città (stringa C dinamica).
+- La popolazione della città (intero senza segno a 32 bit).
+
+Il formato del file di testo è il seguente:
+- La prima riga contiene il numero totale di città.
+- Ogni riga successiva contiene il nome della città e la popolazione separati da una virgola e uno spazio.
+
+### Esempio di file di testo
+
+Il file di testo deve essere strutturato come segue:
+5
+Milano, 181818
+San Diego, 34568
+Canada, 2098
+sassuolo, 126
+Prigniano, 25
+
+In questo esempio:
+- La prima riga (`5`) indica che ci sono tre città nel file.
+- Ogni riga successiva contiene il nome della città e la sua popolazione separati da una virgola.
+
+## Definizione della struttura `citta`
+
+La struttura `citta` è definita come segue:
+
+```c
+struct citta {
+    char *name;       // Nome della città (lunghezza massima 255 caratteri)
+    unsigned int population;  // Popolazione della città
+};
+
 
