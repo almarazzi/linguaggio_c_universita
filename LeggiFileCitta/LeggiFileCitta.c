@@ -41,7 +41,7 @@ struct citta* Leggi_Citta(const char* NomeFile, size_t* n)
 			return NULL;
 		}
 		Riga[strcspn(Riga, "\n")] = '\0';
-		Citta[i].nome = malloc(strlen(Riga) + 1);
+		Citta[i].nome = malloc(sizeof(Riga) + 1);
 		if (Citta[i].nome == NULL)
 		{
 			for (size_t j = 0; j < i; j++)
@@ -53,7 +53,7 @@ struct citta* Leggi_Citta(const char* NomeFile, size_t* n)
 			free(Citta);
 			return NULL;
 		}
-		int Erorre= sscanf_s(Riga,"%255[^,], %u",Citta[i].nome,((unsigned)strlen(Riga)+1), &Citta[i].popolazione);
+		int Erorre= sscanf_s(Riga,"%255[^,], %u",Citta[i].nome,((unsigned)sizeof(Riga)+1), &Citta[i].popolazione);
 		if (Erorre != 2)
 		{
 
