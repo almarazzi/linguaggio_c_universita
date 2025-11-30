@@ -192,7 +192,7 @@ Il formato del file di testo è il seguente:
 
 ### Esempio di file di testo
 
-Il file di testo deve essere strutturato come segue:
+Il file di testo deve essere strutturato come segue (ogni città su una riga separata):
 5
 Milano, 181818
 San Diego, 34568
