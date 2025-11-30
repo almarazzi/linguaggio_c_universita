@@ -28,6 +28,7 @@ L’obiettivo è fornire esempi pratici di algoritmi, strutture dati e simulazio
 - [Numeri_Cresenti](#Numeri_Cresenti)
 - [Binario_BCD](#Binario_BCD)
 - [Somma_Vettori](#Somma_Vettori)
+- [LeggiFileCitta](#LeggiFileCitta)
 ---
 # Problema_Esempio
  - La società BigBurger Inc. vuole vedere se è fattibile avere una sola 
@@ -158,10 +159,12 @@ Lista iniziale: `[64, 25, 12, 22, 11]`
 # Prossimo_Numero_Primo
 - La funzione deve ritornare il più piccolo numero primo maggiore di x.
 - Ad esempio:
+```c
 se x=11 la funzione deve ritornare 13
 se x=12 la funzione deve ritornare 13
 se x=13 la funzione deve ritornare 17
 se x=14 la funzione deve ritornare 17
+```
 ---
 # Binario_BCD
 - La funzione accetta come parametro un numero intero non negativo minore di 10000 e lo ritorna codificato in Binary Coded Decimal (BCD).
@@ -175,4 +178,46 @@ se x=14 la funzione deve ritornare 17
 - arr1 e arr2 non saranno mai NULL e n sarà sempre maggiore di 0.
 - esempio se arr1 = {1, 2, 3} e arr2 = {-1, 7, 14}, la funzione restituirà un puntatore a {0, 9, 17}.
 ---
+# LeggiFileCitta
+
+# Funzione `leggi_Citta` per la lettura di città da un file di testo
+```c
+struct citta* Leggi_Citta(const char* NomeFile, size_t* n)
+```
+## Descrizione
+
+La funzione `leggi_Citta` legge un file di testo contenente informazioni su un elenco di città e le loro rispettive popolazioni, restituendo un array dinamico di strutture `citta` in cui ogni struttura contiene:
+- Il nome della città (stringa C dinamica).
+- La popolazione della città (intero senza segno a 32 bit).
+
+Il formato del file di testo è il seguente:
+- La prima riga contiene il numero totale di città.
+- Ogni riga successiva contiene il nome della città e la popolazione separati da una virgola e uno spazio.
+
+### Esempio di file di testo
+
+Il file di testo deve essere strutturato come segue (ogni città su una riga separata):
+```c
+5
+Milano, 181818
+San Diego, 34568
+Canada, 2098
+sassuolo, 126
+Prigniano, 25
+```
+
+In questo esempio:
+- La prima riga (`5`) indica che ci sono tre città nel file.
+- Ogni riga successiva contiene il nome della città e la sua popolazione separati da una virgola.
+
+## Definizione della struttura `citta`
+
+La struttura `citta` è definita come segue:
+
+```c
+struct citta {
+    char *name;       // Nome della città (lunghezza massima 255 caratteri)
+    unsigned int population;  // Popolazione della città
+};
+
 
